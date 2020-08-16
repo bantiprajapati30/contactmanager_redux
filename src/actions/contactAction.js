@@ -43,5 +43,6 @@ export const updateContact = (updContact) => async dispatch => {
     dispatch({
         type: UPDATE_CONTACT,
         payload: res.data
+
     });
 }
